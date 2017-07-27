@@ -1,0 +1,63 @@
+#logo-image {
+    box-shadow: 50px 100px 10px #333;
+}
+
+/*hero section */
+#about-hero {
+   height: 350px;
+    width: 80%;
+    background-image: url(https://i.ytimg.com/vi/Fw9aHlPK918/maxresdefault.jpg);
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+#about-hero~h1 {
+    width: 20;
+    float: right;
+    margin-top: 8%;
+    text-shadow: -2px -2px 4px #333;
+}
+
+video {
+    height: 400px;
+    width: 600px;
+}
+
+/*column style*/
+.column {
+    width: 33%; /*aprrox*/
+    height: 400px;
+    float: left;
+    padding: 0px 16px;
+    position: relative;
+    overflow: auto;
+}
+
+.column p {
+    text-align: justify;
+    height: 250px;
+    overflow: scroll;
+}
+
+.column: button {
+    color: #4eeffe;
+    padding: 20px 25px;
+    border: none;
+    position: absolute;
+    bottom: 0px;
+    left: 35%;
+}
+
+#col-1 {
+    clear: both;
+}
+
+#col-1 button {
+    background-color: #ff0000;
+}
+
+#col- button:hoover {
+    font-size: 20px;
+}

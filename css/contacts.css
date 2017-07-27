@@ -1,0 +1,27 @@
+/*contact-styles*/
+
+.contact-form-wrapper iframe {
+    width: 60%;
+    float: left;
+}
+
+#contact-form-wrapper h1 {
+ width: 40%;  
+ float: right;
+ margin-top: 18%;
+}
+
+#map-wrapper {
+    clear: both;
+    width: 400;
+    
+}
+
+#map-wrapper address {
+    width: 60%;
+    float: left;
+    font-size: 32px;
+    padding: left 25%;
+    padding-top: 15%;
+    color: #fff;
+}

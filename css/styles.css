@@ -1,0 +1,176 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900|Permanent+Marker');
+
+/*UNIVERSALS*/
+*{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+p, a {
+    font-family:  'Lato', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*header styles*/
+header {
+    position: relative;
+}
+
+#logo-img{
+    height: 150px;
+    display: inline-block;
+}
+
+nav {
+ display: inline-block;
+ width: 550px;
+ position: absolute;
+ right: 0;
+ bottom: 0;
+ margin-bottom: 0px;
+}
+
+nav ul{
+    float: right;
+    width: 80%;
+   margin-bottom: 0px; 
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 20.9px;
+    padding: 5%;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    top: 43px;
+    }
+
+#home-link{
+    background-color: #e8fc00;
+    color: #1a1a00;
+}
+
+#about-link{
+    background-color: rgb(2, 3, 76);
+    color: #fd0303;
+}
+
+#contact-link{
+    background-color:  #ffbb33;
+    color:  #1a1a1a;
+    /*float: right;*/
+    padding: 5%;
+}
+
+/*hero section begins*/
+
+#hero{
+    height: 300px;
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h2 {
+    font-size: 52px;
+    color: #996600;
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+
+/*Sidebar Section Begins*/
+
+aside {
+    height: 300px;
+    background-color: #FFE65C;
+    border: 1px solid 000;
+    width: 35%;
+    text-align: center;
+    font-size: 32px;
+    font-style: italic;
+    float: left;
+}
+
+#artist-links {
+    height: 100%;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+#artist-links a {
+    color:  #996600;
+    display: block;
+    height: 25%;
+}
+
+#artist-links li {
+    border: 2px double #00FF7F;
+    color: #996600;
+    height: 100%;
+}
+
+#artist-links li:hover {
+    border-style: double;
+    font-weight: 900;
+    color: #000000;
+    background-color: #996E26;
+}
+
+/* Main Section Begins */
+main {
+    float: left;
+    width: 65%;
+    height: 450px;
+    overflow: auto;
+}
+
+main h1 {
+    letter-spacing: 10px;
+}
+
+#main-text {
+    font-size: 1.5em;
+    line-height: 35px;
+    padding: 0px 16px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #333;
+    clear: left;
+}
+
+.fa {
+    color: red;
+    margin: 0 10px;
+}
+
+.fa-facebook-square {
+    color: blue;
+}
+
+.fa-instagram {
+    color: purple;
+}
+
+.fa-youtube-square {
+    color: red;
+}
